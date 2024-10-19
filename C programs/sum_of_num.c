@@ -10,7 +10,7 @@ int sum_of_natural_numbers(int n) {
     else {
         return n + sum_of_natural_numbers(n - 1);
     }
-}
+} 
 
 int main() {
     int n;
