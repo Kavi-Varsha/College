@@ -11,8 +11,8 @@ int fact(int n) {
         return n * fact(n - 1);
     }
 }
-
-int main() {
+ 
+int main() { 
     int n, r, result;
     // Prompt user to enter values for n and r
     printf("Enter the value of n: ");

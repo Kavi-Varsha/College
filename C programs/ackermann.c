@@ -16,9 +16,9 @@ int A(int m, int n) {
         return A(m - 1, A(m, n - 1));
     }
 }
-
+ 
 int main() {
-    int m, n, res;
+    int m, n, res; 
     // Prompt the user to enter two values
     printf("Enter two values (m and n) : ");
     scanf("%d %d", &m, &n);
