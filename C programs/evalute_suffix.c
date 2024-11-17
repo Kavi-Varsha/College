@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
+#include <string.h> 
 #include <ctype.h>
 double compute(double op1,double op2, char symbol){
     switch(symbol){
@@ -11,7 +11,7 @@ double compute(double op1,double op2, char symbol){
         case'/':return op1/op2;
         case'^':
         case'$':return pow(op1,op2);
-    }
+    } 
 }
 
 int main(){
