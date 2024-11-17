@@ -44,7 +44,7 @@ void infix_postfix(char infix[],char postfix[]){
         else{
             top--;
         }
-    }
+    } 
     while(s[top]!='#'){
         postfix[j++]=s[top--];
     }
